@@ -27,5 +27,3 @@ class Player3:
                     return 'b' # betray is they were severely punished last time
             else:
                 return 'c' #otherwise collude
-
-   
