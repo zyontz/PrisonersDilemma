@@ -14,5 +14,5 @@ class Player1:
         if getting_team_name:
             return 'backstabber'
         else:
-            return 'c'
+            return 'b'
    

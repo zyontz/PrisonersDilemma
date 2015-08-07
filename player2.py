@@ -12,7 +12,7 @@ class Player2:
    #Defining functions for each child(instance) of class Car
    def strategy(self,history, opponent_history, score, opponent_score, getting_team_name):
         if getting_team_name:
-            return 'loyal Right!'
+            return 'loyal vengeful'
         else:
             if len(opponent_history)==0: #It's the first round: collude
                 return 'c'
