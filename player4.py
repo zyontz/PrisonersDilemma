@@ -17,7 +17,11 @@ class Player4:
             # use history, opponent_history, score, opponent_score
             # to compute your strategy
             size = len(history)
-            if(opponent_history[-1]=='c'): #the number of rounds played is a multiple of 3
+            if(not ('b' in opponent_history) and size > 5):
+                return 'c'
+            elif(not ('c' in opponent_history) and size > 5):
+                return 'b'
+            elif(opponent_history[-1]=='c'): #the number of rounds played is a multiple of 3
                 return 'c'
             else:
                 return 'b'
