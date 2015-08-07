@@ -21,6 +21,6 @@ class Player5:
             elif history[-1]=='c' and opponent_history[-1]=='b':
                 return 'b' # betray is they were severely punished last time
             else:
-                return 'c' #otherwise collude
+                return 'b' #otherwise collude
 
    
